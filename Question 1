@@ -1,0 +1,9 @@
+#include<stdio.h>
+/* Declare an integer , float and character variable */
+int main()
+{
+int a;
+float b;
+char c;
+return 0;
+}
