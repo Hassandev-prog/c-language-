@@ -1,1 +1,14 @@
-# 
+#include<stdio.h>
+‎/* comment*/
+‎int main()
+‎{
+‎int a=5;
+‎float b =2.5;
+‎char c='h';
+‎printf("This is my first program.\n");
+‎printf("My name is Hassan.\n");
+‎printf(" l am student of software Engineering.\n");
+‎getch();
+‎return 0;
+‎}
+‎
