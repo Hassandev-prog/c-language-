@@ -1,0 +1,32 @@
+#include <stdio.h>
+‎#include <stdlib.h>
+‎
+‎int main(int argc, char *argv[])
+‎{
+‎    int amount;
+‎    int n500, n100, n50, n10;
+‎
+‎    printf("Enter amount in rupees: ");
+‎    scanf("%d", &amount);
+‎
+‎    n500 = amount / 500;
+‎    amount = amount % 500;
+‎
+‎    n100 = amount / 100;
+‎    amount = amount % 100;
+‎
+‎    n50 = amount / 50;
+‎    amount = amount % 50;
+‎
+‎    n10 = amount / 10;
+‎
+‎    printf("500 rupee notes = %d\n", n500);
+‎    printf("100 rupee notes = %d\n", n100);
+‎    printf("50 rupee notes = %d\n", n50);
+‎    printf("10 rupee notes = %d", n10);
+‎
+‎    return 0;
+‎}
+‎
+‎
+‎
