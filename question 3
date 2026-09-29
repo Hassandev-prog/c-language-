@@ -1,0 +1,17 @@
+#include<studio.h>
+‎/*          comment       */
+‎int main(){
+‎int age = 19;
+‎float height = 6.1;
+‎float weight = 65;
+‎printf(" Enter your age.\n");
+‎printf("your age is %d\n",age);
+‎printf("Enter your height.\n");
+‎printf("your height is %d\n", height);
+‎printf(" Enter your weight.\n");
+‎printf(" your weight is %.1f\n", weight);
+‎return 0;
+‎}
+‎
+‎
+‎
