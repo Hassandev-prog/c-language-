@@ -1,0 +1,21 @@
+#include <stdio.h>
+‎#include <stdlib.h>
+‎
+‎int main(int argc, char *argv[])
+‎{
+‎int marks1,marks2,marks3, total;
+‎float average ;
+‎
+‎printf("Enter a marks of subject 1:");
+‎scanf("%d",&marks1);
+‎printf("Enter a marks of subject 2:");
+‎scanf("%d",&marks2);
+‎printf("Enter a marks of subject 3:");
+‎scanf("%d",&marks3);
+‎
+‎total = marks1 + marks2 + marks3;
+‎average= total/3.0;
+‎printf("total marks =%d\n",total);
+‎printf ("average marks = %.2f", average);
+‎return 0;
+‎}
