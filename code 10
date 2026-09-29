@@ -1,0 +1,21 @@
+#include <stdio.h>
+‎#include <stdlib.h>
+‎
+‎int main(int argc, char *argv[])
+‎{
+‎int seconds, minutes, remaining;
+‎
+‎printf("Enter seconds:");
+‎scanf("%d",& seconds);
+‎minutes = seconds / 60;
+‎remaining = seconds % 60;
+‎printf(" Enter minutes = %d\n", minutes);
+‎printf("remaining seconds = %d", remaining);
+‎return 0 ;
+‎}
+‎
+‎
+‎
+‎
+‎
+‎
