@@ -1,0 +1,19 @@
+‎#include <stdio.h>
+‎#include <stdlib.h>
+‎
+‎int main(int argc, char *argv[])
+‎{ 
+‎int num1,num2,sum,sub;
+‎printf("Enter number 1:);
+‎scanf("%d",&num1);
+‎printf("Enter number 2:);
+‎scanf("%d",&num2);
+‎sum = num1 + num2;
+‎
+‎printf("Summation of two number:%d",Sum);
+‎
+‎sub = num1 - num2;
+‎printf("Subtraction: %d",Sub);
+‎return 0;
+‎}
+‎
