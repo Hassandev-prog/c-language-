@@ -17,20 +17,5 @@ include <stdio.h>
 ‎return 0;
 ‎}
 ‎
-‎Question 4
-‎#include <stdio.h>
-‎#include <stdlib.h>
 ‎
-‎int main(int argc, char *argv[])
-‎{
-‎int a,b,c, result;
-‎printf("Enter number 1:");
-‎scanf("%d",&a);
-‎printf("Enter number2 :");
-‎scanf("%d",&b);
-‎
-‎result = a*a + b*b + 2*a*b
-‎printf("result =%d", result);
-‎return 0;
-‎}
 ‎
