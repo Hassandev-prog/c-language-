@@ -1,5 +1,6 @@
 #include <stdio.h>
 ‎#include <stdio.h>
+/* write a C program that takes three numbers from the user as input, find their multiflication and display the result */
 ‎
 ‎int main(int argc, char *argv[])
 ‎{
