@@ -1,5 +1,6 @@
 ‎#include <stdio.h>
-‎#include <stdlib.h>
+‎#include <stdio.h>
+/* write a C program that find remainder for two numbers taken from the user as input and display the result */
 ‎
 ‎int main(int argc, char *argv[])
 ‎{ 
